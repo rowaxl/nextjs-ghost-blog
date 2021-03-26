@@ -1,0 +1,13 @@
+{
+  "name": "Next lighthouse",
+  "short_name": "Next LH",
+  "icons": [{
+    "src": "vercel.svg",
+    "sizes": "120x120",
+    "type": "image/svg"
+  }],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#673ab7",
+  "background_color": "#EEE"
+}
