@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       'serviceWorker' in navigator
     ) {
       navigator.serviceWorker
-        .register('/static/sw.js')
+        .register('/static/workbox/sw.js')
         .then(reg => {
           console.log('Service worker registered')
         })

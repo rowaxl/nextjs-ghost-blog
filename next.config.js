@@ -6,8 +6,11 @@ module.exports = {
     if (!isServer && !dev) {
       config.plugins.push(
         new NextWorkboxWebpack({
+          importWorkboxFrom: 'cdn',
           distDir,
           buildId,
+          swDestRoot: './static/workbox',
+          swURLRoot: '/static/workbox',
         })
       )
     }

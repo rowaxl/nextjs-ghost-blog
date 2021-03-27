@@ -33,5 +33,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-static/sw.js
-static/next-precache-*
+static/**/sw.js
+static/**/next-precache-*
