@@ -2,13 +2,13 @@
   "name": "Blaze blog",
   "short_name": "bb",
   "icons": [{
-    "src": "ghost-next-blog-144.jpg",
+    "src": "ghost-next-blog-144.png",
     "sizes": "144x144",
-    "type": "image/jpg"
+    "type": "image/png"
   },{
-    "src": "ghost-next-blog-192.jpg",
+    "src": "ghost-next-blog-192.png",
     "sizes": "192x192",
-    "type": "image/jpg"
+    "type": "image/png"
   }],
   "start_url": "/",
   "display": "fullscreen",
