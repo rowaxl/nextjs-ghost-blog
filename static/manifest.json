@@ -1,6 +1,6 @@
 {
-  "name": "Next lighthouse",
-  "short_name": "Next LH",
+  "name": "Blaze blog",
+  "short_name": "bb",
   "icons": [{
     "src": "ghost-next-blog-144.jpg",
     "sizes": "144x144",
