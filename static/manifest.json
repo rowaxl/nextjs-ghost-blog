@@ -2,9 +2,13 @@
   "name": "Next lighthouse",
   "short_name": "Next LH",
   "icons": [{
-    "src": "vercel.svg",
-    "sizes": "120x120",
-    "type": "image/svg"
+    "src": "ghost-next-blog-144",
+    "sizes": "144x144",
+    "type": "image/jpg"
+  },{
+    "src": "ghost-next-blog-192",
+    "sizes": "192x192",
+    "type": "image/jpg"
   }],
   "start_url": "/",
   "display": "fullscreen",
