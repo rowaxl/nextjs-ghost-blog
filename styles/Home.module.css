@@ -1,4 +1,6 @@
 .container {
+  max-width: 1240px;
+  margin: auto;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -119,4 +121,14 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.postitem {
+	padding: 10px 0;
+}
+
+.goback {
+  text-align: left;
+  align-self: self-start;
+  cursor: pointer;
 }
