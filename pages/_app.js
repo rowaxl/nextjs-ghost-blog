@@ -1,8 +1,25 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    if (
+      typeof window !== 'undefined' &&
+      'serviceWorker' in navigator
+    ) {
+      navigator.serviceWorker
+        .register('/static/sw.js')
+        .then(reg => {
+          console.log('Service worker registered')
+        })
+        .catch(e => {
+          console.error('Error during register sw: ', e)
+        })
+    }
+  }, [])
+
   return (
     <div>
       <Head>
